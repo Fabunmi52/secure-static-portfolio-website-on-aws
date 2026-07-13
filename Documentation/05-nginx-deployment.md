@@ -1,14 +1,18 @@
 # 5. Nginx deployment
-## Install and enable Nginx
-``` sudo apt update
-sudo apt install -y nginx
-sudo systemctl enable --now nginx
-sudo nginx -t
+## Install Nginx (Web services engine)
+```
+sudo apt update -y 
+sudo apt upgrade -y 
+sudo apt list --upgradable 
+apt install nginx -y 
+```
+## To verify that nginx have been insalled
+```
+systemctl status nginx
 ```
 
-Deploy the static files
+## Deploy the static files
 A safer deployment pattern is to stage files in the user's home directory, verify them, and then copy them into the web root.
-
 ```
 mkdir -p ~/webcontent
 sudo rsync -av --delete ~/webcontent/ /var/www/html/
