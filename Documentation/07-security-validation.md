@@ -22,6 +22,6 @@ SSH was restricted to an administrator source address, so a scanner elsewhere sh
 sudo nginx -t
 sudo ss -tulpn
 sudo ufw status verbose
-curl -I https://edawrdfabunmi
+curl -I https://edwardfabunmi.online
 ```
 
