@@ -6,7 +6,7 @@ The apex domain was connected to the server using an A record. DNS propagation w
 ## Install Certbot
 ```
 sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d www.edwardfabunmi -d www.edwardfabunmi
+sudo certbot --nginx -d www.edwardfabunmi.online -d www.edwardfabunmi.online
 ```
 Only request hostnames that already resolve to the server.
 
@@ -18,6 +18,6 @@ systemctl status certbot.timer
 ```
 ## Verify HTTPS
 ```
-curl -I https://www.edwardfabunmi
+curl -I https://www.edwardfabunmi.online
 ```
 The browser certificate viewer should show a valid certificate for the domain, issued by a trusted certificate authority.
