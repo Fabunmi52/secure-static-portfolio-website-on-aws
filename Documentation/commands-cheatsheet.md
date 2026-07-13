@@ -3,8 +3,8 @@
 ## SSH
 
 ```bash
-chmod 400 intonasphere-key.pem
-ssh -i intonasphere-key.pem ubuntu@SERVER_PUBLIC_IP
+chmod 400 portfolioweb-key.pem
+ssh -i portfolioweb-key.pem ubuntu@SERVER_PUBLIC_IP
 ```
 
 ## Files
@@ -39,8 +39,8 @@ ss -tulpn
 ## DNS and HTTPS
 
 ```bash
-dig +short intonasphereai.org
-curl -I http://intonasphereai.org
-curl -I https://intonasphereai.org
+dig +short edwardfabunmi.online
+curl -I http://edwardfabunmi.online
+curl -I https://edwardfabunmi.online
 sudo certbot renew --dry-run
 ```
