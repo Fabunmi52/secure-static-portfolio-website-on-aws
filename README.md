@@ -1,5 +1,5 @@
 # secure-static-portfolio-website-on-aws
-<img width="2530" height="1291" alt="image" src="https://github.com/user-attachments/assets/c3ae8be9-85fc-4f3b-b745-d56240a8efb5" />
+<img width="2048" height="1049" alt="web page" src="https://github.com/user-attachments/assets/029aef7b-0dc3-4aa6-98df-5a842df77ce7" />
 
 
 
